@@ -1,0 +1,11 @@
+# env
+.env
+
+# data
+data/*
+
+# models
+models/*
+
+# logs
+logs/*

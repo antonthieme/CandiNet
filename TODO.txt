@@ -1,0 +1,12 @@
+
+
+METRICS
+Look up 'information retrieval' metrics: https://www.pinecone.io/learn/offline-evaluation/
+- e.g. clustering (cluster in shared embedding space and look at within cluster heterogeneity etc. to see if the proteins/go terms that are known to be related do still cluster together)
+- e.g. multilabel (how many similar ones do you have to retrieve to have all correct labels show up at least once)
+
+RIGOR
+- make sure that train/val/test datasets do not share homologous groups or closely related go terms
+
+COOL STUFF
+- train decoders, get ESM embeddings of functional & nonfunctional variants of proteins, check if annotation changes
